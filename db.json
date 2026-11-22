@@ -1,0 +1,49 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "Patient_Id": "PT-1001",
+      "Name": "Wanjiku Kamau",
+      "Date_Admited": "2026-11-15",
+      "Ailment": "Malaria",
+      "Status": "Admitted",
+      "Details": "Responding well to IV antimalarial treatment; vitals stable."
+    },
+    {
+      "id": "2",
+      "Patient_Id": "PT-1002",
+      "Name": "Brian Ochieng",
+      "Date_Admited": "2026-11-16",
+      "Ailment": "Acute Appendicitis",
+      "Status": "Discharged",
+      "Details": "Post-op recovery complete; scheduled for follow-up in 2 weeks."
+    },
+    {
+      "id": "3",
+      "Patient_Id": "PT-1003",
+      "Name": "Amina Hassan",
+      "Date_Admited": "2026-11-18",
+      "Ailment": "Pneumonia",
+      "Status": "Under Observation",
+      "Details": "Receiving oxygen therapy and broad-spectrum antibiotics."
+    },
+    {
+      "id": "4",
+      "Patient_Id": "PT-1004",
+      "Name": "David Mutua",
+      "Date_Admited": "2026-11-19",
+      "Ailment": "Hypertension Crisis",
+      "Status": "Critical",
+      "Details": "Monitored in HDU; blood pressure stabilizing gradually."
+    },
+    {
+      "id": "5",
+      "Patient_Id": "PT-1005",
+      "Name": "Faith Kiprop",
+      "Date_Admited": "2026-11-21",
+      "Ailment": "Fractured Tibia",
+      "Status": "Admitted",
+      "Details": "Cast applied; awaiting orthopedic review before discharge."
+    }
+  ]
+}
