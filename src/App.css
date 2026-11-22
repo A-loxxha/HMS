@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");
+
+:root{
+    --white-fade: rgba(255, 255, 255, 0.318);
+    --black-fade: rgba(0, 0, 0, 0.437);
+    --main-color: rgba(255, 255, 255, 0.696);
+    --secondary-color: black;
+    --url: url(assets/vandesart-kid-8788962_1920.jpg);
+}
+
+.landing{
+    height: 100vh;
+    background-image: linear-gradient(var(--black-fade), var(--white-fade)), var(--url);
+    background-size: cover;
+    color: var(--main-color);
+}
+
+.landing-container h4, 
+.landing-container p{
+    color: var(--black-fade);
+}
+
+
