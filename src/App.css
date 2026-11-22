@@ -3,9 +3,10 @@
 
 :root{
     --white-fade: rgba(255, 255, 255, 0.318);
-    --black-fade: rgba(0, 0, 0, 0.437);
+    --black-fade: rgba(0, 0, 0, 0.667);
     --main-color: rgba(255, 255, 255, 0.696);
     --secondary-color: black;
+    --bg-gradient:linear-gradient(rgba(0, 89, 255, 0.56), rgba(0, 70, 128, 0.503));
     --url: url(assets/vandesart-kid-8788962_1920.jpg);
 }
 
@@ -21,4 +22,7 @@
     color: var(--black-fade);
 }
 
-
+.overview{
+    background: var(--bg-gradient);
+    height: 100vh;
+}

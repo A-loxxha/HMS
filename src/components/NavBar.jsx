@@ -21,19 +21,19 @@ export default function NavBar(){
                 <div className="collapse navbar-collapse" id="mNavbar">
                     <ul className="navbar-nav d-flex flex-row justify-content-between flex-wrap p-2">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Home</Link>
+                            <Link to="/" className="nav-link text-light">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/dashboard" className="nav-link">Dashboard</Link>
+                            <Link to="/dashboard" className="nav-link text-light">Dashboard</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Appointment</Link>
+                            <Link to="/" className="nav-link text-light">Appointment</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Patients</Link>
+                            <Link to="/" className="nav-link text-light">Patients</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Departments</Link>
+                            <Link to="/" className="nav-link text-light">Departments</Link>
                         </li>
                     </ul>
 

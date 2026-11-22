@@ -1,7 +1,8 @@
-import Home from "./pages/Home";
+import Home from "./mainPages/Home";
 import "./App.css"
 import { Routes, Route } from "react-router";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./mainPages/Dashboard";
+import Patients from "./dashboardPages/Patients";
 
 export default function App(){
 
@@ -10,6 +11,7 @@ export default function App(){
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="/patients" element={<Patients/>}/>
       </Routes>
     </div>
   )
